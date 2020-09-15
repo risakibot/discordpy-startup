@@ -18,4 +18,9 @@ async def ping(ctx):
     await ctx.send('pong')
 
 
-bot.run(token)
+@bot.command()
+async def risaki(ctx):
+    await ctx.send('リサキすき')
+    
+    
+    bot.run(token)
